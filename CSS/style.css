@@ -1,35 +1,11 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-.heading {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  margin-bottom: 25px;
-  /* flex-directio; */
-}
-.col-2 ul {
-  display: flex;
-  justify-content: flex-end;
-  
-}
-.col-2 ul a {
-  padding: 15px;
+a {
   text-decoration: none;
   color: black;
-
+  padding: 10px;
 }
-li{
-    list-style: none;
+.col-lg-5 {
+  font-size: 3px;
 }
-section{
-    display: flex;
-    margin: 35px;
-
-}
-h1{
-    position: relative;
-    left: 35px;
+b .row bg-danger {
+  color: white;
 }
