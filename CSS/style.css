@@ -1,8 +1,17 @@
-/* * {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-} */
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
   position: relative;
   /* font-weight: bold; */
@@ -25,6 +34,7 @@ a {
   text-decoration: none;
   color: black;
   padding: 10px;
+  cursor: pointer;
 }
 a:hover {
   background-color: #000;
@@ -54,16 +64,6 @@ section::before {
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
 }
 
 .column {
@@ -131,4 +131,7 @@ sub section img {
 .btn:hover {
   background: yellow;
   color: blue;
+}
+#carouselExampleDark {
+  border-radius: 25px;
 }
