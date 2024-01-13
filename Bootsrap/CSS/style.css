@@ -138,3 +138,20 @@ sub section img {
 b {
   border-radius: 12px;
 }
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: black;
+  background-color: white;
+}
+#carouselExampleDark img {
+  height: 70vh;
+  width: 5%;
+}
+#carouselExampleDark h5 {
+  color: white;
+}
+#carouselExampleDark p {
+  color: yellow;
+}
