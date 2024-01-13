@@ -135,3 +135,6 @@ sub section img {
 #carouselExampleDark {
   border-radius: 25px;
 }
+b{
+  border-radius: 12px;
+}
