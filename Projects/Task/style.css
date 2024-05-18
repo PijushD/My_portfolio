@@ -1,0 +1,80 @@
+.background-container {
+  background-image: url("images1/banner1.jpg"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* This property ensures that the background image covers the entire container */
+  background-position: center; /* This property centers the background image */
+  background-repeat: no-repeat; /* This property prevents the background image from repeating */
+  height: 70vh; /* Adjust the height of the container as needed */
+  /* You can also add more styles to customize your background */
+}
+.background-container2 {
+  background-image: url("images1/banner2.jpg"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* This property ensures that the background image covers the entire container */
+  background-position: center; /* This property centers the background image */
+  background-repeat: no-repeat; /* This property prevents the background image from repeating */
+  height: 70vh; /* Adjust the height of the container as needed */
+  /* You can also add more styles to customize your background */
+}
+
+/* Additional styles for your content */
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder; /* Example: sets the text color to white */
+}
+
+p {
+  color: #000000;
+  text-align: center; /* Example: sets the text color to white */
+}
+
+.search-container {
+  display: flex;
+  text-align: center;
+  width: 35%;
+  margin-left: 400px;
+  border-radius: 35px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.cards {
+  display: flex;
+  margin-left: 55px;
+  width: fit-content;
+}
+.card {
+  margin: 15px;
+}
+.images {
+  display: flex;
+  width: 20px;
+  height: 30vh;
+  margin-left: 25px;
+}
+img {
+  margin: 15px;
+}
+.background-container23 {
+  background-color: #000000;
+  justify-content: center;
+  
+}
